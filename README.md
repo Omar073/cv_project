@@ -18,8 +18,6 @@ This project is a computer vision-based tool that processes distorted barcode im
 ### Prerequisites
 Ensure you have the following installed:
 - Python 3.8 or above
-- Git
-- Pip
 
 ### Steps
 1. Clone the repository:
@@ -69,7 +67,7 @@ python main.py --input samples/barcode1.png --output results/corrected_barcode1.
 
 ### Decoded Output:
 ```
-Barcode Content: 123456789012
+Barcode Content: 
 ```
 
 ---
@@ -105,19 +103,3 @@ We welcome contributions! Please:
 3. Submit a pull request with a detailed explanation of your changes.
 
 ---
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-## Acknowledgements
-- OpenCV for image processing.
-- Pyzbar for barcode decoding.
-- NumPy and Matplotlib for data manipulation and visualization.
-
----
-
-## Contact
-For questions or support, open an issue on the repository or contact [your_email@example.com].
-
